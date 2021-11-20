@@ -7,7 +7,7 @@ if __name__ == "__main__":
     print("application started")
 
     spark = (
-        SparkSession.builder.appName("first spark with python")
+        SparkSession.builder.appName("first spark with python 1")
         .master("local[*]")
         .getOrCreate()
     )
